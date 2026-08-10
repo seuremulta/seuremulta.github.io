@@ -390,11 +390,6 @@ footer a {
 }
 
 @media (max-width: 768px) {
-
-    main {
-        margin-top: 120px;
-    }
-
     .navbar {
         flex-direction: column;
         gap: 0.75rem;
@@ -407,13 +402,17 @@ footer a {
         gap: 0.5rem 0.9rem;
     }
 
+    .nav-links a {
+        font-size: 0.8rem;
+        white-space: nowrap;
+    }
+
     .nav-links li {
         flex-shrink: 0;
     }
 
-    .nav-links a {
-        font-size: 0.85rem;
-        white-space: nowrap;
+    main {
+        margin-top: 120px;
     }
 
     .section {
@@ -421,36 +420,28 @@ footer a {
     }
 
     .hero-container {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
         gap: 1.25rem;
         padding-top: 0.5rem;
     }
 
-    .hero-text {
-        align-items: center;
-    }
-
     .hero-text h1 {
-        font-size: 2.2rem;
+        font-size: 1.8rem;
     }
 
     .profile-avatar {
-        width: 130px;
-        height: 130px;
+        width: 90px;
+        height: 90px;
     }
 
     .bio {
-        text-align: center;
+        font-size: 0.95rem;
     }
 
-    .badge-row,
-    .social-buttons {
-        justify-content: center;
+    .badge {
+        font-size: 0.78rem;
+        padding: 0.35rem 0.8rem;
     }
 
-    /* --- Timeline: stack instead of side-by-side --- */
     .timeline-item {
         flex-direction: column;
         gap: 0.4rem;
@@ -460,7 +451,6 @@ footer a {
         width: auto;
     }
 
-    /* --- Card grid: single column, no forced min-width --- */
     .grid-container {
         grid-template-columns: 1fr;
         gap: 1.25rem;
@@ -473,16 +463,20 @@ footer a {
 
 @media (max-width: 400px) {
     .hero-text h1 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .profile-avatar {
-        width: 100px;
-        height: 100px;
+        width: 75px;
+        height: 75px;
     }
 
     .badge {
-        font-size: 0.78rem;
-        padding: 0.35rem 0.8rem;
+        font-size: 0.72rem;
+        padding: 0.3rem 0.7rem;
+    }
+
+    .hero-container {
+        gap: 0.9rem;
     }
 }
