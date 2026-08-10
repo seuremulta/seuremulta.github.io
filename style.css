@@ -71,7 +71,7 @@ header {
 .nav-links {
     display: flex;
     list-style: none;
-    gap: 1.2rem;
+    gap: 0.5rem 0.8rem;
 }
 
 .nav-links a {
@@ -80,6 +80,7 @@ header {
     font-size: 0.95rem;
     font-weight: 500;
     transition: color 0.3s;
+    font-size: 0.78rem;
 }
 
 .nav-links a:hover {
@@ -87,7 +88,7 @@ header {
 }
 
 main {
-    margin-top: 50px;
+    margin-top: 110px;
 }
 
 .section {
