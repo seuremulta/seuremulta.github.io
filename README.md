@@ -1,12 +1,12 @@
 # seuremulta.github.io
 
 ## Overview
-Welcome to my portfolio website repository! This project showcases my personal work, projects, and skills as a Computer Science student and Developer. It serves as an interactive hub to demonstrate my technical expertise, design capabilities, and passion for building meaningful applications.
+Welcome to my portfolio website repository! This project showcases my personal work, projects, and skills as a 2nd year Information Technology student and aspiring developer. It serves as an interactive hub to demonstrate my technical expertise, design capabilities, and passion for building meaningful applications.
 
 ### Key Features
 * **Featured Projects**: Highlights of my best technical and creative work with links to live demos and codebases.
 * **Skills & Tools**: A detailed breakdown of the programming languages, frameworks, and tools I specialize in.
-* **About Me**: A background on my journey, experience, and professional goals.
+* **About Me**: A background on my journey, experience, and the values I uphold in my daily life.
 * **Contact Information**: Easy ways to reach out to me for opportunities or collaborations.
 
 ---
